@@ -1,0 +1,104 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Oswald', sans-serif;
+    min-width: 310px;
+    background: white;
+}
+
+h2, h3, h4, h5, h6 {
+    margin: 5px 0;
+}
+
+h2 {
+    font-size: 28px;
+}
+
+h3 {
+    font-size: 24px;
+}
+
+p {
+    margin: 0;
+    font-size: 18px;
+}
+
+hr {
+    height: 3px;
+    border: none;
+    background-color: #BBBBBB;
+}
+
+.header {
+    background: #2C4762;
+    width: 100%;
+    height: 200px;
+    border-style: solid;
+    border-width: 3px 0;
+    border-color: #BBBBBB;
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+#h1TonyAwards {
+    width: 100%;
+    white-space: nowrap;
+    color: #DAF1FC;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.imgAward {
+    width: 120px;
+    height: auto;
+    padding: 10px 16px;
+}
+
+.spacer {
+    height: 203px;
+}
+
+.content {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.title {
+    margin: 10px 0;
+}
+
+
+#actressTitle {
+    font-weight: bold;
+}
+
+.nominees {
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.nominee {
+    padding: 5px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: white;
+}
+
+.winner {
+    border-style: solid;
+    border-width: 5px;
+    border-color: #2C4762;
+}
+
+.headshot {
+    width: 400px;
+    height: 320px;
+    object-fit: cover;
+}
